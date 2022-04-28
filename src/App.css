@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+}
+
+.search{
+  width: 70%;
+  padding: 7px;
+  font-size: 1.2rem;
+  color: lightcoral;
+  box-sizing: border-box;
+  outline: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+.autocomplete{
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+.autocompleteItems{
+  border-bottom: 1px solid #e6e6e6;
+  padding: 10px 5px;
+  cursor: pointer;
+  color: dodgerblue;
+  font-weight: bold;
+  text-align: left;
+}
